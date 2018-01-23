@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "hpdf"("email" text NOT NULL, "days" integer NOT NULL, "hours"
+      integer NOT NULL, "minutes" integer NOT NULL, PRIMARY KEY ("email") )
+  type: run_sql
+- args:
+    name: hpdf
+  type: add_existing_table_or_view

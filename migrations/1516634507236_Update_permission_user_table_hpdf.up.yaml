@@ -1,0 +1,11 @@
+- args:
+    permission:
+      columns:
+      - email
+      - days
+      - hours
+      - minutes
+      filter: {}
+    role: user
+    table: hpdf
+  type: create_update_permission
